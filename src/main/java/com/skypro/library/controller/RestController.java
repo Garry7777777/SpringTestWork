@@ -1,5 +1,6 @@
 package com.skypro.library.controller;
 
+import com.skypro.library.dto.BookDTO;
 import com.skypro.library.model.Book;
 import com.skypro.library.service.BookService;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +23,7 @@ public class RestController {
     }
 
     @GetMapping("/api/book")
-    public List<Book> getBooks() {
+    public List<BookDTO> getBooks() {
         return bookService.getBooks();
     }
 
