@@ -1,0 +1,26 @@
+###
+POST http://user:user@localhost:8080/skypro/api/book
+Content-Type: application/json
+
+{
+  "title": "Spring Start Here: Learn what you need and learn it well",
+  "author": "Laurentiu Spilca",
+  "year": 2021,
+  "isbn": "9781617298691"
+}
+
+
+###
+GET http://localhost:8080/skypro/api/book
+
+
+###
+PUT http://user:user@localhost:8080/skypro/api/book
+Content-Type: application/json
+
+{
+  "title": "Spring Start Here: Learn what you need and learn it well",
+  "author": "Laurentiu Spilca",
+  "year": 2021,
+  "isbn": "9781617298691"
+}
