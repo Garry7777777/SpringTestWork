@@ -24,3 +24,7 @@ Content-Type: application/json
   "year": 2021,
   "isbn": "9781617298691"
 }
+
+###
+DELETE http://user:user@localhost:8080/skypro/api/book?isbn=9781617298691
+Authorization: Basic dXNlcjp1c2Vy
